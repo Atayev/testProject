@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+body {
+    background: url('./img/background.jpg') no-repeat  center/cover; 
+    height: 100vh;
+    overflow: hidden;
+}
+.container {
+    max-width: 900px;
+}
+
+.header {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    background: black;
+    opacity: .7;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: space-around;
+}
+
+.header > h2 {
+    font-size: 2em;
+    margin: 10px;
+}
+.menu {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+}
+
+.menu > p{
+    padding: 10px;
+}
+.menu > p > a {
+    text-decoration: none;
+    color: green;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul>li>i {
+    margin:8px;
+    font-size: 1.2em;
+}
+
+.registerForm {
+    background-color: #fff;
+    width: 400px;
+    height:550px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    padding:0 20px;
+}
+
+.firstSection {
+    margin: 25px;
+    padding: 15px;
+    border-bottom:1px solid #999 ;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    color: #666;
+}
+.top> h4 {
+    color: green;
+
+}
+
+.social {
+    display: flex;
+    justify-content:center;
+    margin-top: 15px;
+}
+.blue,.red {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin:5px;
+}
+
+.blue {
+    background: #1877f2;
+    
+}
+.red {
+    background: #ea4335;
+}
+.social >span> i {
+    padding: 4px;
+    margin: 0;
+}
+.blue>i {
+    border-right: 1px solid blue;
+}
+.red>i {
+    border-right: 1px solid red;
+}
+
+.secondSection>form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+.secondSection>form>input {
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    border: .3px solid #999;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.secondSection>form>button {
+    margin: 15px 0px 15px 0px;
+    background: green;
+    border: .3px solid green;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+.secondSection>form>span {
+    margin: 5px;
+}
